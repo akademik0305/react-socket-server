@@ -60,10 +60,8 @@ io.on("connection", (socket) => {
   });
 
   io.on("disconnect", () => {
-    console.log("Disconnect");
   });
 });
 
 server.listen(8000, () => {
-  console.log("Server is running in port 8000");
 });
